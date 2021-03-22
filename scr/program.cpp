@@ -29,3 +29,7 @@ if (!success) {
   }
   return true;
 }
+
+void Program::Use() const {
+    glUseProgram(m_program);
+}
