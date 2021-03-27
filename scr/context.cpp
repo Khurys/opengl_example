@@ -11,10 +11,10 @@ bool Context::Init() {
 
   	
   float vertices[] = {
-     0.5f,  0.5f, 0.0f, 1.0f, 0.0f, 0.0f, // top right, red
-     0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, // bottom right, green
-    -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, // bottom left, blue
-    -0.5f,  0.5f, 0.0f, 1.0f, 1.0f, 0.0f, // top left, yellow
+     0.5f,  0.5f, 0.0f, 0.7f, 0.5f, 0.0f, // top right, Orange
+     0.5f, -0.5f, 0.0f, 0.3f, 0.7f, 0.0f, // bottom right, Green
+    -0.5f, -0.5f, 0.0f, 0.7f, 0.3f, 1.0f, // bottom left, Pink
+    -0.5f,  0.5f, 0.0f, 0.5f, 0.7f, 0.7f, // top left, Skyblue
   };
   uint32_t indices[] = { // note that we start from 0!
     0, 1, 3, // first triangle
