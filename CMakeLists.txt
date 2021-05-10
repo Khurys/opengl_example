@@ -18,6 +18,8 @@ add_executable(${PROJECT_NAME}
   scr/vertex_layout.cpp scr/vertex_layout.h
   scr/image.cpp scr/image.h
   scr/texture.cpp scr/texture.h
+  scr/mesh.cpp scr/mesh.h
+  scr/model.cpp scr/model.h
   )
 
 include(Defendency.cmake)
