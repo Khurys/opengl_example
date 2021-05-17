@@ -20,6 +20,7 @@ add_executable(${PROJECT_NAME}
   scr/texture.cpp scr/texture.h
   scr/mesh.cpp scr/mesh.h
   scr/model.cpp scr/model.h
+  scr/framebuffer.cpp scr/framebuffer.h
   )
 
 include(Defendency.cmake)
